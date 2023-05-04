@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agência de Carros</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Agência de Carros</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="agencia">
+		<h1>Agência de Carros</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#carros">Carros</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+	<div class="sobre">
+		<section id="sobre">
+			<h2>Sobre Nós</h2>
+			<p>Somos uma agência de carros que oferece uma ampla seleção de veículos novos e usados. Nossa equipe é composta por especialistas em carros que estão sempre disponíveis para ajudar nossos clientes a encontrar o carro perfeito para atender às suas necessidades.</p>
+		</section>
+		</div>
+		
+		<section id="carros">
+			<h2>Carros</h2>
+			<div class="cards">
+			
+			<div class="card">
+			<ul>
+			
+				<li>
+					<img src="img/mercedes.jpg.jpg" alt="Carro 1">
+					<h3>Carro 1</h3>
+					<p>Descrição do carro 1.</p>
+					<p>Preço: R$ 50.000</p>
+					<button>Comprar</button>
+				</li>
+				<li>
+					<img src="img/renault.jpg" alt="Carro 2">
+					<h3>Carro 2</h3>
+					<p>Descrição do carro 2.</p>
+					<p>Preço: R$ 60.000</p>
+					<button>Comprar</button>
+				</li>
+				<li>
+					<img src="img/bmwM5.jpg" alt="Carro 3">
+					<h3>Carro 3</h3>
+					<p>Descrição do carro 3.</p>
+					<p>Preço: R$ 70.000</p>
+					<button>Comprar</button>
+				</li>
+			</ul>
+			</div>
+		</section>
+		<section id="contato">
+			<h2>Entre em Contato</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; Agência de Carros 2023</p>
+	</footer>
+</body>
+</html>
+
